@@ -1,0 +1,226 @@
+/* configuração navegação topo*/
+.navegacaoTopo a span:hover{
+	border-bottom: 2px solid red;
+}
+
+
+/*fim configuração navegação topo*/
+
+/*configuração carrossel*/
+.carousel-inner .carousel-item .carousel-caption a{
+	text-decoration: none;
+	color: black;
+}
+/*fim configuração carrossel*/
+
+/*configuração do corpo do site*/
+html, body, #home {
+	margin: 0;
+  	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+section{
+	padding: 5px;
+}
+
+html, body{
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 20px;
+}
+
+/*fim de configuração do corpo do site*/
+
+/* Rodapé
+-----------------------------*/
+footer {
+	background: #000;
+	font-size: 0.8em;
+	padding: 30px 0px 30px 0px;
+	position: relative;
+}
+
+footer h4, h6{
+	color: #0d47a1;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding: 10px 0px 10px 0px;
+}
+
+footer p {
+	color: #757575;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	padding: 5px 0px 5px 0px;
+}
+
+footer .container a {
+	color: #757575;
+	font-size: 0.8em;
+	padding: 5px 0px 5px 0px;
+	text-decoration: none;
+}
+
+footer .container a:hover {
+	color: #64b5f6;
+}
+/*fim do rodapé*/
+
+/*configuração pagina contato*/
+#contato hr{
+	border: 1px solid #b71c1c; 
+}
+
+#contato h1,p{
+	padding: 5px 0px 5px 0px;
+}
+/*fim configuração pagina contato*/
+
+/*inicio configuração pagina escola*/
+body #escola{
+	height: 100%;
+}
+
+#escola h1{
+	border-bottom: 2px solid #ef5350;
+	padding: 10px 0px 10px 0px;
+	margin-left: 10px;
+}
+.caixa1, .caixa2, .caixa3{
+	position: relative;
+	height: 100%;
+	opacity: 0.7;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; 
+}
+
+.caixa1 {
+	background-image: url(../Imagem/História/inicioEtec.jpg);
+}
+
+.caixa2 {
+	background-image: url(../Imagem/História/durante.jpg);
+}
+
+.caixa3 {
+	background-image: url(../Imagem/História/atual.jpg);
+}
+
+.conteudo-titulo {
+	position: absolute;
+	left: 0;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+.conteudo {
+	color: #777;
+	background-color: white;
+	text-align: justify;
+	padding: 50px 80px;
+}
+
+.conteudo-titulo span.titulo {
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+/*fim configuração pagina escola*/
+
+/*Configuração secretaria*/
+.diretoriaAcademica h2{
+	padding: 40px 0px 40px 0px; 
+}
+
+.diretoriaAcademica hr{
+	border: 1px solid #ef5350;
+}
+
+/* configuração serviços*/
+.diretoriaServicos h1{
+	border-bottom: 2px solid #ef5350;
+	padding: 10px 0px 10px 0px;
+	margin-left: 10px;
+}
+
+#processoseletivo p small a{
+	text-decoration: none;
+}
+/*fim configuração pagina diretoria servicos*/
+
+
+/*configurando sessão cursos na area principal*/
+#cursos p{
+	font-size: 0.68em;
+}
+
+/*fim configurando sessão cursos na area principal*/
+
+
+/*inicio configuração pagina apm*/
+.flip-container {
+	perspective: 500px;
+}
+/* flip the pane when hovered */
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 250px;
+	height: 250px;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 10;
+	left: 10;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.back p{
+	font-size: 0.7em;
+}
+
+/*fim configuração pagina apm*/
+
